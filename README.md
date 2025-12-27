@@ -106,4 +106,4 @@ See: `docs/protocol.md`.
 ---
 
 ## License
-MIT (or choose your preferred license)
+CHOKRI
