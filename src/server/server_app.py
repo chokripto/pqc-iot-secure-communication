@@ -12,7 +12,7 @@ from src.common.crypto_utils import (
 from src.common.hkdf import derive_session_key
 from src.common.message import send_frame, recv_frame
 
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"
 PORT = 9000
 KEM_ALG = "Kyber512"
 
