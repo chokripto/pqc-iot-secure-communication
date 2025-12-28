@@ -1,0 +1,14 @@
+services:
+  server:
+    build: .
+    container_name: pqc_server
+    command: ["python", "-m", "src.server.server_app"]
+    ports:
+      - "9000:9000"
+
+  device:
+    build: .
+    container_name: pqc_device
+    depends_on:
+      - server
+    command: ["python", "-m", "src.device.device_client"]
