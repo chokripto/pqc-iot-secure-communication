@@ -8,7 +8,7 @@ from src.common.hkdf import derive_session_key
 from src.common.message import send_frame, recv_frame
 
 
-HOST = "127.0.0.1"
+HOST = "server"
 PORT = 9000
 
 
